@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="logo.jpg">
+<meta name="description" content="Hamd Solution: Digital Marketing, SEO, Website Development, IT Solutions and Business Support to help businesses grow smarter and faster.">
+<title>Hamd Solution – Smart Support for Success</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="brand" href="#top"><img src="logo.jpg" alt="Hamd Solution logo"><span>Hamd Solution</span></a>
+ <nav id="nav" aria-label="Main">
+  <a href="#services">Services</a><a href="#approach">Approach</a><a href="#why">Why Hamd</a>
+  <a class="btn" href="#contact">Get a free quote</a>
+ </nav>
+ <div style="display:flex;gap:8px">
+  <button class="icon-btn" id="theme" aria-label="Toggle dark mode">◐</button>
+  <button class="icon-btn menu" id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+ </div>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <h1>Smart support for success.</h1>
+  <p class="lead">Hamd Solution provides Digital Marketing, SEO, Website Development, IT Solutions and Business Support, so your business can grow smarter and faster.</p>
+  <div class="cta"><a class="btn" href="#contact">Start your project</a><a class="btn ghost" href="#services">See our services</a></div>
+  <div class="pillars"><span>💻 Technology</span><span>📈 Marketing</span><span>🤝 Business Support</span></div>
+ </div>
+ <div class="mark" aria-hidden="true">
+  <svg viewBox="0 0 300 300"><rect x="70" y="40" width="46" height="220" rx="6" fill="var(--navy)"/><rect x="184" y="40" width="46" height="220" rx="6" fill="var(--navy)"/>
+  <path class="sw" d="M30 190 C100 150 170 150 280 80" fill="none" stroke="var(--blue)" stroke-width="34" stroke-linecap="round"/></svg>
+ </div>
+</div></div>
+
+<section id="services" class="alt"><div class="wrap">
+ <h2>Everything your business needs to grow online</h2>
+ <p class="sub">Choose a category to see exactly what we do.</p>
+ <div class="svc">
+  <div class="tabs" role="tablist" aria-label="Service categories" id="tabs"></div>
+  <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+ </div>
+</div></section>
+
+<section id="approach"><div class="wrap">
+ <h2>How we work with you</h2>
+ <p class="sub">A simple process, clear communication and results you can measure.</p>
+ <div class="steps">
+  <div><b>Discover</b>We learn your business, customers and goals.</div>
+  <div><b>Plan</b>We build a strategy and agree on the scope.</div>
+  <div><b>Build &amp; launch</b>We create your site, store, ads or content.</div>
+  <div><b>Grow</b>We track results and keep improving.</div>
+ </div>
+</div></section>
+
+<section id="why" class="alt"><div class="wrap">
+ <h2>Why businesses choose Hamd Solution</h2>
+ <p class="sub">One team for your website, your store, your ads and your content.</p>
+ <div class="why">
+  <div><b>One team, every channel</b><p>Website, Shopify, social, ads and video handled together, so everything works as one.</p></div>
+  <div><b>Built for sales</b><p>Every page, campaign and post is aimed at leads, customers and revenue.</p></div>
+  <div><b>Ongoing support</b><p>We maintain, manage and optimise after launch, so you are never left alone.</p></div>
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+ <div>
+  <h2>Tell us what you want to grow</h2>
+  <p class="sub">Send a short message and we will reply with a plan and a free quote.</p>
+  <p><b>Email:</b> <a href="mailto:hamdurrehman43@gmail.com">hamdurrehman43@gmail.com</a></p>
+ </div>
+ <form id="form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="57335ae3-532d-41ca-a640-4ad9af302cc8">
+  <input type="hidden" name="subject" value="New enquiry from Hamd Solution website">
+  <label>Your name<input name="name" required autocomplete="name"></label>
+  <label>Email<input name="email" type="email" required autocomplete="email"></label>
+  <label>Service needed<select name="service" id="svcSel"></select></label>
+  <label>Message<textarea name="message" required></textarea></label>
+  <button class="btn" type="submit">Send message</button>
+  <div class="note" id="note" role="status"></div>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <p class="tag">Hamd Solution</p>
+ <p>Technology | Marketing | Business Support</p>
+ <p>✨ Smart Support for Success</p>
+ <p>© <span id="yr"></span> Hamd Solution. All rights reserved.</p>
+</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
